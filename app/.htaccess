@@ -1,0 +1,10 @@
+
+RewriteEngine on
+
+# To set your custom php.ini, add the following line to this file:
+# suphp_configpath /home/yourusername/path/to/php.ini
+
+RewriteCond %{HTTP_HOST} ^meganvanlinda\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.meganvanlinda\.com$
+RewriteRule ^/?$ "http\:\/\/mvld\.com" [R=301,L]
+
