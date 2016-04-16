@@ -29,7 +29,7 @@ table {border-collapse: collapse; border-spacing: 0;}
 .pika-stage-custom {height: 610px; width: 470px;}
 #pikame {width: 180px;}
 
-body {font-family: Helvetica, sans-serif; text-align: center; margin: 0px}
+body {font-family: Helvetica, sans-serif; text-align: center; margin: 0px;}
 a {color:white;}
 .pikachoose {width: 1025px; margin: 0px; position: relative; text-align: left;}
 .pikachoose-custom {width: 683px; margin: 0px; position: relative; text-align: left;}
@@ -39,28 +39,28 @@ a {color:white;}
 #header-container {height: 70px;}
 #header {width: 1100px; margin: 0 auto; position: relative;}
 
-#bannertest {position: relative; top: 11px;}
+#bannertest {position: relative; margin-top: 1.8%;}
+#mvldbanner {position: relative; margin-top: 2.7%;}
 
-#container {position: relative; margin-top: 25px; margin-left: auto; margin-right:auto; width: 1000px;}
-#custom-container {position: relative; margin-top: 25px; margin-left: auto; margin-right:auto; width: 706px; overflow: hidden; right: -25px;}
-#footer-wrap {width: 100%; position: fixed; z-index: 3; bottom: 0; left: 0; padding-top: 14px; padding-bottom: 22px;}
-#footer {display: flex; margin-left: auto; margin-right: auto; background: white; width: 884px;}
+#container {position: relative; margin-top: 1.7%; margin-left: auto; margin-right:auto; width: 1000px;}
+#custom-container {position: relative; margin-top: 1.7%; margin-left: auto; margin-right:auto; width: 706px; overflow: hidden; right: -25px;}
+#footer-wrap {width: 100%; position: fixed; z-index: 3; bottom: 1.8%; left: 0; padding-top: 14px; padding-bottom: 10px;}
+#footer {display: flex; margin-left: auto; margin-right: auto; background: none; width: 884px; justify-content: space-between; -webkit-justify-content: space-between;}
 #footer a {margin-left: 17px; margin-right: 17px; height: 31px;}
 
-#ethoswords{margin-top: 14px;}
+#footer-transparency-wrap {width: 100%; position: fixed; z-index: 2; bottom: 1.8%; left: 0; padding-top: 14px; padding-bottom: 10px;}
+#footer-transparency {position: relative; left: 8px; margin-left: auto; margin-right: auto; height: 39px; width: 888px; background: white; border-radius: 20px; opacity: .8;}
+
+#ethoswords{margin-top: 0px;}
 #feather {margin-top: 17px;}
-#mvl {margin-top: 24px; width: 480px; height: 370px;}
+#mvl {margin-top: 24px; width: 472px; height: 365px;}
 #aztec {width: 550px; margin-top: 18px;}
 #instagram {height: 50px; margin-top: 17px;}
 #phone {height: 20px; margin-top: 18px;}
 #email {height: 22px; margin-top: 21px;}
 #address {height: 18px; margin-top: 26px;}
 
-#index-header-wrap {width: 100%; position: relative; z-index: 2; top: 3%;}
-#index-header-container {height: 70px;}
-#index-header {width: 1025px; margin: 0 auto; position: relative;}
 #splash {top: 0px; left: 0px; width: 100%; position: fixed; top: 15%; z-index: 1;}
-
 
 /*if you change the padding on pika-stage you must adjust the top left of this to match!*/
 	.pika-stage .main-image {position: absolute;}
