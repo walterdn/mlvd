@@ -62,6 +62,8 @@ a {color:white;}
 #email {height: 22px; margin-top: 21px;}
 #address {height: 18px; margin-top: 26px;}
 
+#bottom-space-holder {margin-top: 50px;}
+
 #splash {top: 0px; left: 0px; width: 100%; position: fixed; top: 15%; z-index: 1;}
 
 /*if you change the padding on pika-stage you must adjust the top left of this to match!*/
