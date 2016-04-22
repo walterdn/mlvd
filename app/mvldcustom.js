@@ -26,7 +26,7 @@
 		buildFinished: null,
 		bindFinished: null,
 		startOn: 0,
-		thumbOpacity: 0.5,
+		thumbOpacity: 0.54,
 		hoverPause: false,
 		animationSpeed: 0
 	};

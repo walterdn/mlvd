@@ -66,13 +66,14 @@ a {color:white;}
 #ethoswords{margin-top: 0px;}
 #feather {margin-top: 17px;}
 #mvl {margin-top: 24px; width: 472px; height: 365px;}
-#aztec {width: 550px; margin-top: 18px;}
-#instagram {height: 50px; margin-top: 17px;}
-#phone {height: 20px; margin-top: 18px;}
-#email {height: 22px; margin-top: 21px;}
-#address {height: 18px; margin-top: 26px;}
+/*#aztec {width: 550px; margin-top: 18px;}*/
+#aztec {margin-top: 18px; width: 1000px; height: 200px;}
+#instagram {height: 60px; margin-top: 51px;}
+#phone {height: 25px; margin-top: 52px;}
+#email {height: 24px; margin-top: 52px;}
+#address {height: 22px; margin-top: 52px;}
 
-#bottom-space-holder {margin-top: 50px;}
+#bottom-space-holder {margin-top: 64px;}
 
 #splash {top: 0px; left: 0px; width: 100%; position: fixed; top: 15%; z-index: 1;}
 
