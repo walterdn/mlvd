@@ -38,20 +38,30 @@ a {color:white;}
 #banner-transparency-wrap {position: absolute; width: 100%; margin-top: .9%;}
 #banner-transparency {position: relative; margin-left: auto; margin-right: auto; height: 63px; width: 630px; background: white; z-index: 3; border-radius: 32px; opacity: .8;}
 
-#bannertest {position: relative; margin-top: 1%; z-index: 4;}
+#bannertest {position: relative; margin-top: 1%; z-index: 4; right: 8px;}
 #mvldbanner {position: relative; margin-top: 2.7%;}
 
-#container {position: absolute; top: 50%; left: 50%; margin-top: -296px; margin-left: -500px; width: 1000px; height: 620px;}
+#container {position: absolute; top: 50%; left: 50%; margin-top: -296px; margin-left: -504px; width: 1000px; height: 620px;}
+#shifted-container {position: absolute; top: 50%; left: 50%; margin-top: -296px; margin-left: -481px; width: 1000px; height: 620px;}
 #custom-container {position: absolute; top: 50%; left: 50%; margin-top: -296px; margin-left: -325px; width: 706px; height: 620px; overflow: hidden;}
 
-/*#container {position: relative; margin-top: 1.7%; margin-left: auto; margin-right:auto; width: 1000px; height: 620px;}*/
-/*#custom-container {position: relative; margin-top: 1.7%; margin-left: auto; margin-right:auto; width: 706px; overflow: hidden; right: -25px;}*/
 #footer-wrap {width: 100%; position: fixed; z-index: 3; bottom: 1.8%; left: 0; padding-top: 14px; padding-bottom: 10px;}
-#footer {display: flex; margin-left: auto; margin-right: auto; background: none; width: 884px; justify-content: space-between; -webkit-justify-content: space-between;}
-#footer a {margin-left: 17px; margin-right: 17px; height: 31px;}
+#footer {
+	display: flex; 
+	display: -webkit-flex;
+	margin-left: auto; 
+	margin-right: auto; 
+	background: none; 
+	width: 892px; 
+	justify-content: space-around; 
+	-webkit-justify-content: space-around;
+	flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+}
+#footer a {height: 31px;}
 
 #footer-transparency-wrap {width: 100%; position: fixed; z-index: 2; bottom: 1.8%; left: 0; padding-top: 14px; padding-bottom: 10px;}
-#footer-transparency {position: relative; left: 8px; margin-left: auto; margin-right: auto; height: 39px; width: 888px; background: white; border-radius: 20px; opacity: .8;}
+#footer-transparency {position: relative; margin-left: auto; margin-right: auto; height: 39px; width: 894px; background: white; border-radius: 20px; opacity: .8;}
 
 #ethoswords{margin-top: 0px;}
 #feather {margin-top: 17px;}
