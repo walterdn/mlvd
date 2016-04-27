@@ -65,11 +65,11 @@ a {color:white;}
 
 #ethoswords{margin-top: 0px;}
 #feather {margin-top: 17px;}
-#mvl {margin-top: 24px; width: 472px; height: 365px;}
+#mvl {margin-top: 24px; width: 472px; height: 365px; border-radius: 11px;}
 #color-logo {margin-top: 89px;}
 
 #contact-info-container {
-	margin-top: 62px;
+	margin-top: 112px;
 	position: relative;
 	left: -6px;
 }
@@ -79,7 +79,7 @@ a {color:white;}
 	margin-right: 12px;
 }
 
-#instagram {height: 57px; margin-top: 59px; opacity: .74;}
+#instagram {height: 52px; margin-top: 24px; opacity: .74;}
 
 #phone {height: 22px;}
 #email {height: 20px;}
