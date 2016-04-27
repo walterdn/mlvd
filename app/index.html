@@ -1,43 +1,37 @@
-<html>
-	<head>
-		<link type="text/css" href="mvld.css" rel="stylesheet" />
-		<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>
-		<script type="text/javascript" src="mvld.js"></script>
-		<script language="javascript">
-			$(document).ready(function (){
-				$("#pikame").PikaChoose({carousel:true, carouselVertical:true});
-			});
-		</script>
-		<script type="text/javascript">
+<!DOCTYPE html>
+<html ng-app="MVLDApp">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>MVLD</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.min.js"></script>
+        <script src="./MVLDController.js"></script>
+    </head>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-27955805-1']);
-  _gaq.push(['_trackPageview']);
+    <body ng-controller="MVLDController" ng-cloak>
+        
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        <section class="pic-view-module">
 
-</script>
-</head>
-<body>
+            <div class="prev-transparency" ng-click="slide(-1)"></div>
+            <div class="next-transparency" ng-click="slide(1)"></div>
 
-<a><img id="mvldbanner" src="graphics/mvldbanner.png"/></a>
+            
+            <section class="picture-containers">
 
-<img id="splash" src="graphics/splash.png">
+                <div class="img-container" ng-repeat="source in picSources" ng-class="{'shift-left': source.shiftedLeft, 'shift-right': source.shiftedRight}">
+                    <img src="{{source.name}}">
+                </div>
 
-<section id="footer-transparency-wrap"><div id="footer-transparency"></div></section>
+            </section>
 
-<section id="footer-wrap">
-	<div id="footer">
-		<a href="gallery.html"><img class="navimg" src="graphics/ggallery.png"/></a>
-		<a href="ethos.html"><img class="navimg" src="graphics/gethos.png"/></a>
-		<a href="atwork.html"><img class="navimg" src="graphics/gatwork.png"/></a>
-		<a href="custom.html"><img class="navimg" src="graphics/gcustom.png"/></a>
-		<a href="contact.html"><img class="navimg" src="graphics/gcontact.png"/></a>
-	</div>
-</section>
-</body>
+        </section>
+    
+
+        <section class="hidden-container">
+            <img ng-repeat="source in allNames" class="hidden-images" src="{{source}}">
+        </section>
+        
+    </body>
 </html>

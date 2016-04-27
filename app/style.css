@@ -1,0 +1,80 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+
+body {
+	overflow-x: hidden;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.pic-view-module {
+	position: relative;
+	width: 812px;
+	height: 610px;
+	margin-top: 88px;
+	margin-left: auto;
+	margin-right: auto;
+	background: lightgray;
+}
+
+.prev-transparency {
+	position: absolute;
+	top: 0;
+	left: -812px;
+	width: 812px;
+	height: 700px;
+	z-index: 3;
+	opacity: .6;
+	background: white;
+}
+
+.img-container {
+	width: 812px;
+	height: 610px;
+	transition: transform 1.3s ease;
+}
+
+.next-transparency {
+	position: absolute;
+	top: 0;
+	right: -812px;
+	width: 812px;
+	height: 700px;
+	z-index: 3;
+	opacity: .6;
+	background: white;
+}
+
+.picture-containers {
+	display: flex;
+	position: relative;
+	left: -1624px;
+	width: 100%;
+	height: 610px;
+}
+
+.shift-left {
+	transform: translateX(-812px);
+}
+
+.shift-right {
+	transform: translateX(812px);
+}
+
+.hidden-container {
+	display: none;
+}

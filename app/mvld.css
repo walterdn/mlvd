@@ -65,25 +65,13 @@ a {color:white;}
 
 #ethoswords{margin-top: 0px;}
 #feather {margin-top: 17px;}
-#mvl {margin-top: 24px; width: 472px; height: 365px; border-radius: 11px;}
-#color-logo {margin-top: 89px;}
-
-#contact-info-container {
-	margin-top: 112px;
-	position: relative;
-	left: -6px;
-}
-
-#contact-info-container img {
-	margin-left: 12px;
-	margin-right: 12px;
-}
-
-#instagram {height: 52px; margin-top: 24px; opacity: .74;}
-
-#phone {height: 22px;}
-#email {height: 20px;}
-#address {height: 18px;}
+#mvl {margin-top: 24px; width: 472px; height: 365px;}
+/*#aztec {width: 550px; margin-top: 18px;}*/
+#aztec {margin-top: 66px; width: 720px; height: 130px;}
+#instagram {height: 60px; margin-top: 66px; opacity: .84;}
+#phone {height: 25px; margin-top: 52px;}
+#email {height: 24px; margin-top: 44px;}
+#address {height: 22px; margin-top: 50px;}
 
 #bottom-space-holder {margin-top: 64px;}
 
